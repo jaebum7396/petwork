@@ -1,0 +1,104 @@
+/* 맨 위에 머릿글 라디오 버튼 */
+#post-radio{
+	margin-top:5%;
+}
+
+/* .row{
+    margin-right: 0;
+  }
+ */
+
+/* 페이징 처리 설정 */
+/* .sell-post-page{
+    margin-top: 1%;
+} */
+
+.sell-post-head-select input{
+    font-size: 5em;
+}
+
+/* 서치버튼 크기 조정 */
+/* #btn-search-button{
+    width: 3em;
+}
+ */
+/* 서치 검색창 가운데 정렬 */
+/* .sell-post-form{
+    margin-left: 30%;
+}
+ */
+#sell-post-search-sub{
+	display:inline-block;
+} 
+ 
+/* 서치 버튼 이미지 크기 조정 */
+#sell-post-search-img{
+    width: 1em;
+    height: 1em;    
+}
+
+/* 페이징 처리 가운데 정렬 */
+#sell-post-list-page {
+    margin-left: 10%;
+}
+
+#sell-post-img{
+    width: auto;
+    height: 2%;
+}
+
+/* div{
+    border:2px solid red;
+}  */
+
+/*레이스 나누는 라디오 버튼 부분*/
+/* .sell-post-head{
+    margin-top: 5%;
+} */
+
+
+
+/* 글머리 설정 부분 */
+#text-head{
+    font-size: 1.5em;
+    margin-right: 5%;
+}
+
+.sell-post-head{
+    margin-top: 3%;
+}
+
+.sell-post-head-select{
+    font-size: 1.5em;
+}
+
+
+/* .sell-post-head-radio{
+    margin-right: 5%;
+} */
+
+/* 테이블 css */
+
+/* body{ 이거 물어봐야 됨!! 그냥 테이블 넣었을때 허전함
+background-color:#f2f2f2;
+} */
+
+#sell-post-table{
+	
+    background-color:#fff;
+    box-shadow:0px 2px 2px #aaa;
+    margin-top:5%;
+    text-align: center;
+}
+#sell-post-table th{
+	
+    text-align: center;
+}
+
+/* 따로 만들었는데 그냥 .btn-primary color white 부여함 */
+/* .page-item .btn-primary{
+color: white;
+} */
+
+
+

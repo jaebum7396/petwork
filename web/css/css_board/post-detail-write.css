@@ -1,0 +1,123 @@
+/* 맨 위에 머릿글 라디오 버튼 */
+#post-radio{
+	margin-top:5%;
+}
+#freePostTitle{
+	width:100%;
+}
+#sharingPostTitle{
+	width:100%;
+}
+#freePostWriter{
+	width:100%;
+}
+#sharingPostWriter{
+	width:100%;
+}
+#sharingPostAddress{
+	width:100%;
+}
+/* 맨 위에 머릿글 라디오 버튼 */
+#post-radio{
+	margin-top:5%;
+}
+/* 글머리 설정 부분 */
+.post-detail-write-head-select{
+    font-size: 1em;
+    /* margin-left: 1em; */
+}
+
+#text-head{
+    font-size: 1.1em;
+    margin-right: 5%;
+}
+
+/*레이스 나누는 라디오 버튼 부분*/
+.post-detail-write-head{
+    margin-top: 1%;
+}
+
+.post-detail-write-head-radio{
+    margin-right: 5%;
+}
+#post-detail-write-title{
+    font-size: 1.1em;
+    margin-right: 7%;
+}
+#post-detail-write-title-radio{
+	font-size:1.1em;
+	margin-right:7%;
+}
+
+#post-detail-write-writer{
+	font-size:1.1em;
+	margin-right:7%;
+}
+#post-detail-write-address{
+	font-size:1.1em;
+	margin-right:7%;
+}
+#post-detail-write-address{
+	font-size:1.1em;
+	margin-right:7%;
+}
+#post-detail-write-YN{
+	font-size:1.1em;
+	margin-right:7%;
+}
+/*작성 등록 부분*/
+#post-detail-write-title-input{
+    font-size: 1.1em;
+    width: 70%;
+}
+#post-detail-write-title-input-price{
+	font-size: 1.1em;
+    width: 70%;
+}
+#post-detail-write-add-img-text{
+    font-size: 1.1em;
+}
+#post-detail-write-add-img-text2{
+	display:none;
+	font-size:1.1em;
+}
+#post-detail-write-add-img-text3{
+	display:none;
+	font-size:1.1em;
+}
+
+#post-detail-write-add-img{
+    font-size: 1.1em;
+}
+
+/*버튼 정렬*/
+#btn-cancel{
+    margin-left: 85%;
+}
+#user-btn-cancel{
+	margin-left:80%;
+}
+/* 라디오버튼 디스플레이 속성 */
+#postImgAddress2{
+	display:none;
+}
+#postImgAddress3{
+	display:none;
+}
+/* textarea 속성 */
+#PostContent{
+	width:100%;
+}
+
+#free-post-detail-write > div.row.form-inline{
+	margin-top:0.5em;
+}
+#postImgAddress0{
+	margin-top:0.5em;
+}
+#postImgAddress1{
+	margin-top:0.5em;
+}
+#postImgAddress2{
+	margin-top:0.5em;
+}

@@ -1,0 +1,154 @@
+.post-view-tile{
+	background:#fff;
+	box-shadow:0em 0.125em 0.1875em -0.0625em rgba(112, 131, 146, 0.7);
+  	transform-style: preserve-3d;
+	margin: 0.625em 0.3125em;
+	border-radius: 0.3125em 0.3125em 0 0;
+	background-color: #f8f8f8;
+}
+
+.post-view-header{
+	text-align:center;
+	color:#516055;
+	font-size:1.1875em;	
+	font-weight: 700;
+	position:relative;
+}
+
+.post-view-header div{
+	text-align:center;
+	position:relative;
+}
+
+.post-view-header-date{
+	font-size:0.7em;
+	color: #b8cecc;
+}
+
+.post-view-header-id{
+	font-size:0.7em;
+	color: #b8cecc;
+}
+
+.post-view-header-tel{
+	border-bottom:0.0625em solid #ebeff2;
+	text-align:center;
+	color:#516055;
+	font-size:1.1875em;	
+	font-weight: 700;
+	position:relative;
+}
+
+.post-view-header-tel strong{
+	display:block;
+	color:#c8d8a8;
+	font-size:2.5em;
+	font-weight:700;
+}
+
+.post-view-img {
+	padding: 1em 1em 0;
+	text-align: center;
+}
+
+.post-view-img img {
+	height: 350px;
+	border-radius: 0.3125em;
+}
+
+.post-view-info{
+	border:0.0625em solid #ebeff2;
+	border-radius:0.3125em;
+	padding:1.25em 0em;
+	margin:0.625em 1.25em;
+	font-size:1em;
+	color:#594a49;
+	font-weight:600;	
+	overflow:auto;
+}
+.post-view-info div{
+	float:left;
+	width:50%;
+	text-align:center;
+	position:relative;
+}
+.post-view-info strong{
+	display:block;
+	color:#b8cecc;
+	font-size:0.6875em;
+	font-weight:700;
+}
+.post-view-info span{
+	text-align: center;
+}
+
+.post-view-posts-top{
+	border-top:0.0625em solid #ebeff2;
+	background:#f7f8fa;
+	overflow:auto;
+	padding:0.9375em 0;
+	font-size:1em;
+	color:#59687f;
+	font-weight:600;
+	border-radius: 0 0 0.3125em 0.3125em;
+}
+.post-view-posts-top div{
+	border-right:0.0625em solid #ebeff2;
+	width: 33.3333%;
+	float:left;
+	text-align:center
+}
+
+.post-view-posts-top strong{
+	color:#98b4b2;
+	font-size:0.8em;
+	font-weight:700;
+	margin-right: 1em;
+}
+
+.post-view-posts-top div:nth-of-type(3){border:none;}
+
+.post-view-posts{
+	border-top:0.0625em solid #d6dde2;
+	background:#e0ede9;
+	overflow:auto;
+	padding:1.25em 1.25em;
+	font-size:1em;
+	color:#594a49;
+	font-weight:600;
+	border-radius: 0 0 0.3125em 0.3125em;
+	text-align:center;	
+}
+
+.post-view-posts strong{
+	color:#98b4b2;
+	font-size:0.8em;
+	font-weight:700;
+	float:left;
+}
+
+.post-view-posts p{
+	text-align: center;
+ 	margin: 0.9375em 0.9375em;		
+ 	padding-right: 1.8em;
+	width: 100%;
+}
+
+.post-view-button input{
+	width:8em;
+	font-size:1em;
+	font-weight:600;
+}
+
+#inputMemberId{
+	width: 50%;
+	margin-top: 10px;
+}
+
+.modal-body{
+	text-align: center;
+}
+
+.give-notice{
+	color: #ff5555;
+}

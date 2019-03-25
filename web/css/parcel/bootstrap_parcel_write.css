@@ -1,0 +1,69 @@
+#text-head{
+    margin-right: 5%;
+}
+
+
+#text-title{
+    margin-right: 7%;
+}
+
+#btn-delete{
+    margin-left: 80%;
+}
+
+#men-pet-gender{
+    margin-right: 10%;
+}
+
+.parcel-write-text-title{
+	font-weight:bold;
+}
+#parcel-write-end{
+	margin-bottom:5%;
+}
+#parcel-write-start{
+	margin-top:5%;
+}
+#parcel-write-pet-gender{
+	margin-right:2%;
+}
+
+#del-btn{
+	width:100%;
+}
+#set-btn{
+	width:100%;
+}
+
+
+#add-img-text2{
+	display: none;
+}
+#parcel-img2{
+	display: none;
+}
+#add-img-text3{
+	display: none;
+}
+#parcel-img3{
+	display: none;
+}
+#add-img-text4{
+	display: none;
+}
+#parcel-img4{
+	display: none;
+}
+#add-img-text5{
+	display: none;
+}
+#parcel-img5{
+	display: none;
+}
+ #post-detail-img{
+        max-width: 20%;
+        max-height: 20%;
+    } 
+    
+	
+ 

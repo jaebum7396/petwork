@@ -1,0 +1,90 @@
+#post-detail-date {
+	margin-top: 5%;
+}
+
+/* 댓글 content창 */
+#postComment {
+	width: 75%;
+}
+
+#userPostComment {
+	width: 70%;
+}
+/* 댓글 달았을 때 나오는 테이블 */
+.tbl-comment {
+	width: 100%;
+}
+
+#btn-reply {
+	float: right;
+}
+
+#update {
+	margin-left: 40%;
+}
+#user-update{
+	margin-left:20%;
+}
+
+#delete {
+	margin-right: 10%;
+}
+
+#post-detail-write-img {
+	width: 200px;
+	height: 200px;
+}
+
+#post-detail-img-admin {
+	max-width: 40%;
+	max-height: 40%;
+}
+
+
+.btn-comment {
+	text-align: right;
+}
+
+#post-secet-img {
+	width: 3%;
+}
+
+#post-detail-tbl th {
+	width: 15%;
+}
+
+#leve2Comment {
+	padding-left: 5%;
+}
+
+#btn-ok {
+	float: right;
+}
+/* 댓글 폰트 */
+#commentContent{
+	font-size:1em;
+	font-weight:bold;
+}
+.reply-btn{
+	font-size:0.7em;
+	padding:0.4em;
+}
+#post-data-role-body{
+	resize: none; 
+}
+#PostContent{
+	resize: none;
+}
+
+#freePostTh{
+	vertical-align: middle;
+}
+#freePostTd{
+	vertical-align: middle;
+}
+#sharingPostTh{
+	vertical-align: middle;
+}
+#sharingPostTd{
+	vertical-align: middle;
+}

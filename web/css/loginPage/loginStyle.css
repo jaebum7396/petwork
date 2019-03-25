@@ -1,0 +1,156 @@
+/* 폰트 나눔 고딕 */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+* { margin: 0em; padding: 0em; font-family: 'Nanum Gothic', sans-serif;}
+
+	
+	.sero-center
+	{
+	    display:flex;
+	    align-items:center;
+	}
+	
+	.garo-center
+	{
+	    display:flex;
+	    margin: auto;
+	}
+
+	.login-grid-container { height: 100%; margin: 0; }
+
+    .login-grid-container * { 
+    /* border: 1px solid red; */
+    position: relative;
+    
+    
+    }
+
+    .login-grid-container *:after { 
+    /* content:attr(class); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+    .login-grid-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "login-head-line login-input-line login-check-line" "login-head-line login-input-line login-check-line" "login-head-line login-input-line login-check-line";
+    line-height: 2.3em;
+    margin-top:9em;
+    margin-bottom: 10em;
+    margin-left:auto;
+    margin-right: auto;
+    width: 600px;
+    }
+
+    .login-head-line {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "." "login-head-container" ".";
+    grid-area: login-head-line;
+    margin-left: 4em;
+    min-width: 4em;
+    }
+
+    .login-head-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "login-headId-container" "login-headPw-container";
+    grid-area: login-head-container;
+    }
+
+    .login-headId-container { grid-area: login-headId-container; }
+
+    .login-headPw-container { grid-area: login-headPw-container; }
+
+    .login-input-line {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "login-title-container" "login-input-container" "login-infoSearch-container";
+    grid-area: login-input-line;
+    }
+
+    .login-infoSearch-container { 
+        grid-area: login-infoSearch-container; 
+        float:right;    
+    }
+
+    .login-input-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "login-inputId-container" "login-inputPw-container";
+    grid-area: login-input-container;
+    }
+
+    .login-inputId-container { grid-area: login-inputId-container; }
+
+    .login-inputPw-container { grid-area: login-inputPw-container; }
+
+    .login-title-container { grid-area: login-title-container; }
+
+    .login-check-line {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "." "login-loginBtn-container" "login-joinBtn-container";
+    grid-area: login-check-line;
+    margin-right:5em;
+    }
+
+    .login-loginBtn-container { grid-area: login-loginBtn-container; }
+
+    .login-joinBtn-container { grid-area: login-joinBtn-container; }
+
+    .login-title
+    {
+        font-weight: 600;
+        font-size: 1.6em;
+        color: #516055;
+        margin-bottom: 2em;
+    }
+    .login-head
+    {
+        font-weight: 600;
+        color: #516055;
+        
+    }
+    #searchBtn
+    {
+        margin-left: 3em;
+        float: right !important;
+        margin-bottom: 3em;
+    }
+   
+    #joinBtn
+    {
+        float: right;
+        margin-bottom: 3em;       
+    }
+
+    #loginBtn
+    {
+        height: 4em;
+        width: 5em;
+    }
+    
+    .longT-join
+    {
+    	width:90% !important;
+    }
+    #login-nav
+    {
+    	margin-right:2em;
+    }
+   
+  
+  
+     
+    
+
+   

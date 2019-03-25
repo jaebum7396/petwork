@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+.signUp-grid-container { height: 100%; margin: 0; }
+
+.signUp-grid-container * { 
+ /* border: 1px solid red; */
+ position: relative;
+ line-height:1.5em;
+ 
+}
+
+.signUp-grid-container *:after { 
+ /* content:attr(class); */
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.signUp-grid-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line" "join-head-line join-input-line join-check-line";
+ 
+}
+
+.join-head-line {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "." "join-idHead-container" "join-pwHead-container" "join-nameHead-container" "join-birthHead-container" "join-genderHead-container" "join-phoneHead-container" "join-emailHead-container" "join-addressHead-container" "join-addressHead-container" ".";
+  grid-area: join-head-line;
+  
+  min-width:100px;
+  margin-left: 2em;
+}
+
+.join-idHead-container { grid-area: join-idHead-container; }
+
+.join-pwHead-container { grid-area: join-pwHead-container; }
+
+.join-nameHead-container { grid-area: join-nameHead-container; }
+
+.join-birthHead-container { grid-area: join-birthHead-container; }
+
+.join-genderHead-container { grid-area: join-genderHead-container; }
+
+.join-phoneHead-container { grid-area: join-phoneHead-container; }
+
+.join-emailHead-container { grid-area: join-emailHead-container; }
+
+.join-addressHead-container { grid-area: join-addressHead-container; }
+
+.join-input-line {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "join-title-container" "join-idInput-container" "join-pwInput-container" "join-nameInput-container" "join-birthInput-container" "join-genderInput-container" "join-phoneInput-container" "join-emailInput-container" "join-addressSearch-container" "join-addressDetail-container" "join-complete-container";
+  grid-area: join-input-line;
+}
+
+.join-title-container { 
+	grid-area: join-title-container; 
+	text-align:center;
+}
+
+.join-idInput-container { grid-area: join-idInput-container; }
+
+.join-pwInput-container { grid-area: join-pwInput-container; }
+
+.join-nameInput-container { grid-area: join-nameInput-container; }
+
+.join-birthInput-container { grid-area: join-birthInput-container; }
+
+.join-genderInput-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "join-mRadio-container join-wRadio-container";
+  grid-area: join-genderInput-container;
+}
+
+.join-mRadio-container 
+{ 
+	margin-top:0.5em;
+	grid-area: join-mRadio-container; 
+	text-align:center;
+}
+
+.join-wRadio-container 
+{ 
+	margin-top:0.6em;
+	grid-area: join-wRadio-container; 
+	text-align:center;
+}
+
+.join-phoneInput-container {
+  display: grid;
+  grid-template-columns: 1.05fr 1.05fr 0.9fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "join-firstPhone-container join-secondPhone-container join-lastPhone-container";
+  grid-area: join-phoneInput-container;
+}
+
+.join-firstPhone-container { grid-area: join-firstPhone-container; }
+
+.join-secondPhone-container { grid-area: join-secondPhone-container; }
+
+.join-lastPhone-container { grid-area: join-lastPhone-container; }
+
+.join-emailInput-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "join-emailIdInput-container join-emailDomainInput-container";
+  grid-area: join-emailInput-container;
+}
+
+.join-emailIdInput-container { grid-area: join-emailIdInput-container; }
+
+.join-emailDomainInput-container { grid-area: join-emailDomainInput-container; }
+
+.join-addressSearch-container { grid-area: join-addressSearch-container; }
+
+
+
+.join-addressDetail-container { grid-area: join-addressDetail-container; }
+
+.join-complete-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "join-signUpBtn-container join-cancelBtn-container";
+  grid-area: join-complete-container;
+}
+
+.join-signUpBtn-container 
+{ 
+	grid-area: join-signUpBtn-container;
+	text-align:center; 
+}
+
+.join-cancelBtn-container 
+{ 
+	grid-area: join-cancelBtn-container; 
+	text-align:center;
+}
+
+.join-check-line {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "." "join-duplicateCheckBtn-container" "join-constaintText-container" "." "." "." "." "." "join-addressCheckBtn-container" "." ".";
+  grid-area: join-check-line;
+  text-align:center;
+}
+
+.join-duplicateCheckBtn-container { grid-area: join-duplicateCheckBtn-container; }
+
+.join-constaintText-container { grid-area: join-constaintText-container; }
+
+.join-addressCheckBtn-container{ grid-area: join-addressCheckBtn-container}
+
+#signup-container
+{
+	line-height: 2.4em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+#firstPhoneInput
+{
+	width: 90% !important;
+}
+#secondPhoneInput
+{
+	width:90% !important;
+}
+/* #lastPhoneInput
+{
+	width: 90% !important;
+} */
+.join-firstPhone-container
+{
+	float:left;
+}
+.join-middle-input
+{
+	width:90% !important;
+}
+.join-constraintText
+{
+	font-size: 0.9em;
+}
+.join-check-line
+{
+	min-width: 100px;
+}
+
+.signUpTitle
+{
+	font-weight: 600;
+	font-size: 1.6em;
+	color: #516055;
+	/* margin-bottom:1em; */
+}
+
+.join-head
+{
+	font-weight: 600;
+	/* font-size: 1.3em; */
+	color: #516055;
+}

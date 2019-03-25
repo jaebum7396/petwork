@@ -1,0 +1,96 @@
+#section h3 {
+	text-align: center;
+	font-weight: 600;
+	margin-top: 1em;
+}
+
+.thumbnail {
+	padding: 0.25rem;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.post-list-card-text strong {
+	color: #98b4b2;
+	font-size: 0.8em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.post-list-card-text span {
+	color: #594a49;
+	font-size: 0.85em;
+	font-weight: 700;
+	margin: 0.5em;
+}
+
+.post-list-card{
+	height: 300px;
+}
+
+.post-list-card-row{
+	min-height: 480px;
+}
+
+.post-list-bottom{
+	margin-left: 10px;
+}
+
+.post-list-select{
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+	color: #516055 !important;
+    background-color: ghostwhite !important;
+    background-clip: padding-box !important;
+    border: 1px solid #594A49 !important;
+    border-radius: 0.25rem !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+#post-list-district{
+	min-width: 8em;
+}
+
+.post-list-select:focus 
+{
+    color: black !important;
+    background-color: white !important;
+    border-color: #C8D8A8 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem #C8D8A8 !important;
+}
+
+#post-list-card-notice{
+	text-align: center;
+	margin-top: 5em;
+}
+
+.card-img-top{
+	height: 175px;
+}
+
+#post-list-card-date{
+	color: #dfdfdf;
+	font-weight: 600;
+	font-size: 0.85em;
+  	margin-right: 0px;
+}
+
+.protect-post-list-card{
+	height: 280px;
+}
+
+#missing-list-pageBar{
+	margin: 0 auto;
+}

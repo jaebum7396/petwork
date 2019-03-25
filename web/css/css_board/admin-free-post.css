@@ -1,0 +1,80 @@
+/* 맨 위에 머릿글 라디오 버튼 */
+#post-radio {
+	margin-top: 5%;
+}
+
+#post-tbl {
+	margin: auto;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* 페이징 처리 설정 */
+.free-post-page {
+	margin-top: 1%;
+}
+
+.free-post-head-select input {
+	font-size: 5em;
+}
+
+/* 서치 검색창 가운데 정렬 */
+#post-search {
+	margin-left: 30%
+}
+
+#free-post-search-sub {
+	display: inline-block;
+}
+
+/* 서치 버튼 이미지 크기 조정 */
+#free-post-search-img {
+	width: 1em;
+	height: 1em;
+}
+
+/* 페이징 처리 가운데 정렬 */
+#free-post-list-page {
+	margin-left: 10%;
+}
+
+#free-post-img {
+	width: auto;
+	height: 2%;
+}
+
+/* 글머리 설정 부분 */
+#text-head {
+	font-size: 1.5em;
+	margin-right: 5%;
+}
+
+.free-post-head {
+	margin-top: 3%;
+}
+
+.free-post-head-select {
+	font-size: 1.5em;
+}
+
+#free-post-table {
+	background-color: #fff;
+	box-shadow: 0px 2px 2px #aaa;
+	text-align: center;
+}
+
+#free-post-table th {
+	text-align: center;
+}
+
+div#search-freePostTitle {
+	display: inline-block;
+}
+
+div#search-freePostWriter {
+	display: none;
+}
+
+div#search-freePostContent {
+	display: none;
+}

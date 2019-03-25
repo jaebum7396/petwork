@@ -1,0 +1,52 @@
+.row {
+    margin-right: 0;        
+    }
+
+#section{
+    /* background-color: #b8cecc; */
+        font-family: verdana;
+    }
+    #btn-reply{
+        float: right;
+    }
+    
+    #update{
+        margin-left: 10%;
+    }
+    #delete{
+        margin-right: 10%;
+    }
+    .row{
+        margin-bottom: 2%;
+    }
+    
+    /* .sell-post-detail-div{
+    border:1px solid gray;
+    } */
+    
+    #sell-post-img{
+        width: 100%;
+        max-height: 10em;
+    }
+    
+    textarea {
+        margin-top: 5%;
+        min-width: 100%;
+        min-height: 10em;
+        resize: none;
+    }
+    
+    .sell-post-detail {
+        padding: 5%;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .btn-comment{
+        text-align: right;
+    }
+    .btn-comment img{
+        width: 3%;
+    
+    }
+    

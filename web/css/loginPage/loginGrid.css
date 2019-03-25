@@ -1,0 +1,52 @@
+    .login-contents {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "login-headLine-container login-inputLine-container login-confirmLine-container" "login-headLine-container login-inputLine-container login-confirmLine-container";
+    grid-area: login-contents;
+    
+    }
+
+    .login-headLine-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "." "." "." "." "login-idHead-container" "login-pwHead-container" "." "." ".";
+    grid-area: login-headLine-container;
+    }
+
+    .login-idHead-container { grid-area: login-idHead-container; }
+
+    .login-pwHead-container { grid-area: login-pwHead-container; }
+
+    .login-inputLine-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "." "." "login-title-container" "." "login-idInput-container" "login-pwInput-container" "login-idSearch-container" "." ".";
+    grid-area: login-inputLine-container;
+    }
+
+    .login-title-container { grid-area: login-title-container; }
+
+    .login-idInput-container { grid-area: login-idInput-container; }
+
+    .login-pwInput-container { grid-area: login-pwInput-container; }
+
+    .login-idSearch-container { grid-area: login-idSearch-container; }
+
+    .login-confirmLine-container {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "." "." "." "." "login-loginBtn-container" "login-loginBtn-container" "login-joinBtn-container" "." ".";
+    grid-area: login-confirmLine-container;
+    }
+
+    .login-loginBtn-container { grid-area: login-loginBtn-container; }
+
+    .login-joinBtn-container { grid-area: login-joinBtn-container; }
+
+/* 로그인 페이지 DIV 조정 */
+
+    

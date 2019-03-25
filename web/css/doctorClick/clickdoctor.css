@@ -1,0 +1,84 @@
+
+.clickdoctor-heading{
+    background: #fff;
+/*     padding: 1%; */
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+    margin-top: 10%;
+    width:98%;
+}
+.clickdoctor-heading img{
+    width: 10%;
+}
+.clickdoctor-bio-info{
+  /*   padding: 5%; */
+    background:#fff;
+    box-shadow: 0px 0px 4px 0px #b0b3b7;
+    width:98%;
+}
+.clickdoctor-name{
+    font-family: 'Charmonman', cursive;
+    font-weight:600;
+    
+}
+.clickdoctor-bio-image{
+     text-align:center; 
+}
+.clickdoctor-bio-image img{
+    margin-top: 15%;
+    border-radius:50%;
+    height: 150px;
+    width: 150px;
+    
+}
+.clickdoctor-bio-content{
+    text-align:left;
+}
+.clickdoctor-bio-content p{
+    font-weight:300;
+    font-size:1.5em;
+}
+/* 버튼스타일 */
+.btn-primary
+{
+    background-color:#516055 !important;
+    border:#594A49 !important;    
+   
+}
+
+.btn-primary:hover
+{
+    background-color:#C8D8A8 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus 
+{
+    box-shadow: 0 0 0 0.2rem #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle 
+{
+    color: #fff !important;
+    background-color: #b8cecc !important;
+    border-color: #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus 
+{
+    box-shadow: 0 0 0 0.2rem #e0ede9 !important;
+}
+#clickdoctor-doctorname
+{
+    color: #516055;
+}
+#oriFile
+{
+	margin-left:310%; improtant! 
+	text-align:center; 
+	padding:-10px;
+}
+#doctorClickM{
+	margin-top:10%;
+}

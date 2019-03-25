@@ -1,0 +1,115 @@
+#section{
+    /* background-color: #b8cecc; */
+        font-family: verdana;
+    }
+    #btn-reply{
+        float: right;
+    }
+    
+    #update{
+        margin-left: 10%;
+    }
+    #delete{
+        margin-right: 10%;
+    }
+    .row{
+        margin-bottom: 2%;
+        margin-right: 0;  
+    }
+    
+    /* .free-post-detail-div{
+    border:1px solid gray;
+    } */
+    
+    #free-post-img{
+        width: 100%;
+        max-height: 10em;
+    }
+    
+    textarea {
+        margin-top: 5%;
+        min-width: 100%;
+        min-height: 10em;
+        resize: none;
+    }
+    
+    .free-post-detail {
+        padding: 5%;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .btn-comment{
+        text-align: right;
+    }
+    .btn-comment img{
+        width: 3%;
+    
+    }
+    
+    
+        
+    
+    
+    /* 버튼스타일 */
+    .btn-primary {
+        background-color: #516055 !important;
+        border: #594A49 !important;
+        font-size: 1.5em;
+    }
+    
+    .btn-primary:hover {
+        background-color: #C8D8A8 !important;
+    }
+    
+    .btn-primary:focus,
+    .btn-primary.focus {
+        box-shadow: 0 0 0 0.2rem #594A49 !important;
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-primary.dropdown-toggle {
+        color: #fff !important;
+        background-color: #b8cecc !important;
+        border-color: #594A49 !important;
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem #e0ede9 !important;
+    }
+    
+    /* 포커싱 들어갔을때 */
+    .form-control:focus {
+        color: #b8cecc !important;
+        background-color: white !important;
+        border-color: #C8D8A8 !important;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem #C8D8A8 !important;
+    }
+    
+    /* 기본 플레이스 홀더 */
+    .form-control::placeholder {
+        color: #516055 !important;
+        opacity: 1;
+    }
+    
+    /* 포커싱 들어갔을때 플레이스 홀더 */
+    .form-control:focus::placeholder {
+        color: #b8cecc !important;
+        opacity: 1;
+    }
+    
+    /* 셀렉트 박스 포커싱*/
+    select.form-control:focus::-ms-value {
+        color: #b8cecc !important;
+        background-color: #fff !important;
+    }
+    
+    /*테이블 css*/
+    /* .table-protocol .form-control {
+    border-radius: 0;
+    } */
+    

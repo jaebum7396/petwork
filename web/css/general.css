@@ -1,0 +1,559 @@
+﻿/*	Reset & General
+---------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+* { margin: 0em; padding: 0em; font-family: 'Nanum Gothic', sans-serif;}
+
+/* 기본버튼 CSS */
+.btn-primary
+{
+	background-color:#516055 !important;
+	border:#594A49 !important;	
+}
+.btn-primary:hover
+{
+	background-color:#C8D8A8 !important;
+}
+.btn-primary:focus, .btn-primary.focus 
+{
+	box-shadow: 0 0 0 0.2rem #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+	color: #fff !important;
+	background-color: #b8cecc !important;
+	border-color: #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.2rem #e0ede9 !important;
+}
+
+.page-link {
+    position: relative !important;
+    display: block !important;
+    padding: 0.5rem 0.75rem !important;
+    margin-left: -1px !important;
+    line-height: 1.25 !important;
+    color: #fff !important;
+    background-color: #2e353d !important;
+    border: 1px solid #dee2e6 !important;
+}
+  
+.page-link:hover {
+    color: #b6c794 !important;
+    text-decoration: none !important;
+    background-color: #2e353d !important;
+    border-color: #dee2e6 !important;
+}
+
+.page-item.active .page-link {
+    z-index: 1 !important;
+    color: #fff !important;
+    background-color: #bace92 !important;
+    border-color: #acc284 !important;
+}
+
+/* 인풋스타일 */
+    
+/* 기본 인풋 */
+.form-control 
+{
+    display: block ;
+    width: 100% ;
+    padding: 0.375rem 0.75rem ;
+    padding-left:0;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #516055 ;
+    background-color: ghostwhite !important;
+    background-clip: padding-box !important;
+    border: 1px solid #594A49 ;
+    border-radius: 0.25rem !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+/* 포커싱 들어갔을때 */
+.form-control:focus 
+{
+    color: black !important;
+    background-color: white !important;
+    border-color: #C8D8A8 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem #C8D8A8 !important;
+}
+/* 기본 플레이스 홀더 */
+.form-control::placeholder 
+{
+    color: #516055 !important;
+    opacity: 1 !important;
+}
+/* 포커싱 들어갔을때 플레이스 홀더 */
+.form-control:focus::placeholder 
+{
+    color: #b8cecc !important;
+    opacity: 1 !important;
+}
+
+/* 셀렉트 박스 포커싱*/
+select.form-control:focus::-ms-value 
+{
+    color: #b8cecc !important;
+    background-color: #fff !important; 
+}
+
+fieldset.scheduler-border 
+{
+    width: 21em;
+    border: 1px groove #ddd !important;
+    padding: 0.1m !important;
+    margin: 0 0 0.1em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000 !important;
+            box-shadow:  0px 0px 0px 0px #000 !important;
+}
+
+legend.scheduler-border 
+{
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto !important;
+    padding:0 10px !important;
+    border-bottom:none !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/* 어드민 네비 */
+
+		#nav{
+		    padding-left: 0;
+		}
+		
+		.nav-side-menu {
+		    overflow: auto;
+		    font-size: 0.9em;
+		    font-weight: 550;
+		    background-color: #2e353d;
+		    position: fixed;
+		    top: 0px;
+		    width: 14%;
+		    height: 100%;
+		    color: #e1ffff;
+		}
+		.nav-side-menu .brand {
+		    background-color: #23282e;
+		    line-height: 50px;
+		    display: block;
+		    text-align: center;
+		    font-size: 1em;
+		}
+		.nav-side-menu .toggle-btn {
+		    display: none;
+		}
+		.nav-side-menu ul,
+		.nav-side-menu li {
+		    list-style: none;
+		    margin: 0px;
+		    line-height: 3.5em;
+		    cursor: pointer;
+		}
+		.nav-side-menu ul :not(collapsed) .arrow:before,
+		.nav-side-menu li :not(collapsed) .arrow:before {
+		    display: inline-block;
+		    padding-left: 10px;
+		    padding-right: 10px;
+		    vertical-align: middle;
+		}
+		.nav-side-menu ul .active,
+		.nav-side-menu li .active {
+		    border-left: 3px solid #c8d8a8;
+		    background-color: #4f5b69;
+		}
+		.nav-side-menu ul .sub-menu li.active,
+		.nav-side-menu li .sub-menu li.active {
+		    color: #c8d8a8;
+		    
+		}
+		.nav-side-menu ul .sub-menu li.active a,
+		.nav-side-menu li .sub-menu li.active a {
+		    color: #c8d8a8;
+		
+		}
+		.nav-side-menu ul .sub-menu li,
+		.nav-side-menu li .sub-menu li {
+		    background-color: #181c20;
+		    border: none;
+		    line-height: 28px;
+		    border-bottom: 1px solid #23282e;
+		    margin-left: 0px;
+		}
+		.nav-side-menu ul .sub-menu li:hover,
+		.nav-side-menu li .sub-menu li:hover {
+		    background-color: #020203;
+		}
+		.nav-side-menu ul .sub-menu li:before,
+		.nav-side-menu li .sub-menu li:before {
+		    display: inline-block;
+		    padding-left: 10px;
+		    padding-right: 10px;
+		    vertical-align: middle;
+		}
+		.nav-side-menu li {
+		    padding-left: 0.8em;
+		    border-left: 3px solid #2e353d;
+		    border-bottom: 1px solid #23282e;
+		}
+		.nav-side-menu li a {
+		    text-decoration: none;
+		    color: #e1ffff;
+		}
+		.nav-side-menu li a i {
+		    width: 20px;
+		    padding-right: 20px;
+		}
+		.nav-side-menu li:hover {
+		    border-left: 3px solid #c8d8a8;
+		    background-color: #4f5b69;
+		    -webkit-transition: all 1s ease;
+		    -moz-transition: all 1s ease;
+		    -o-transition: all 1s ease;
+		    -ms-transition: all 1s ease;
+		    transition: all 1s ease;
+		}
+		
+		@media (max-width: 767px) 
+		{
+		    .nav-side-menu 
+		    {
+		        position: relative;
+		        width: 100%;
+		        margin-bottom: 10px;
+	    	}	
+		    
+		    .nav-side-menu .toggle-btn 
+		    {
+		        display: block;
+		        cursor: pointer;
+		        position: absolute;
+		        right: 10px;
+		        top: 10px;
+		        z-index: 10 !important;
+		        padding: 3px;
+		        background-color: #ffffff;
+		        color: #000;
+		        width: 40px;
+		        text-align: center;
+		    }
+	    
+		    .brand 
+		    {
+		        text-align: left !important;
+		        font-size: 22px;
+		        padding-left: 20px;
+		        line-height: 50px !important;
+		    }
+		}
+
+		@media (min-width: 767px) 
+		{
+		    .nav-side-menu .menu-list .menu-content 
+		    {
+		        display: block;
+		    }
+		}
+
+/* 반응형 최소화(~768px*/
+
+@media screen and (max-width: 768px) 
+{
+   	div
+   	{
+   		/* border:1px solid red; */
+   	}
+    	
+    header
+    {      	 
+       position:relative;
+       display:block;
+       line-height: 3em;         
+       margin-bottom:8em;   
+       min-width: 340px;      
+    }
+    
+    .header-contents
+    {
+    	background-color: #23282e;
+    }
+      
+    .header-login-nav
+    {    	
+        margin-bottom:2em;
+       	float:none !important;
+    }
+    
+    .header-nav
+    {    		
+       display:none;
+    }
+    
+    ul#header-relative-nav
+    {    	
+       width: 20em;
+       /* border: 1px solid red; */         
+       display:inline;
+       float: left;         
+    }
+      ul#header-relative-nav li
+      {
+         display:inline;
+         font-weight: 300;
+         /* font-size: 1em; */
+         
+      }
+      ul#header-relative-nav li a
+      {
+         color: #b8cecc;
+         font-weight: 600;
+      }
+      ul#header-relative-nav li a:hover
+      {
+          color: #e0ede9;
+          transform:scale(1.2);
+      }
+      ul#header-relative-nav ul
+      {
+          display:none;
+      }
+      ul#header-relative-nav li:hover > ul
+      {
+          position:absolute;
+          /* margin:0 auto; */          
+          margin-top:2em;
+          margin-left: -6em;
+          display:inline-block;
+          height:3em;
+      }   
+      ul#header-relative-nav li:hover > ul li a
+      {
+          font-size: 0.9em;
+         
+      } 
+      #header-relative-nav
+      {
+     	  /* background-color: gold; */
+      }
+      
+}
+    
+      #header-relative-nav
+      {
+        display:none;
+      }     
+  
+    
+/* 헤더 스타일 */
+      
+    div 
+    {
+       /* border:1px solid red; */
+    }
+    
+    ul
+    {
+       /* border: 1px solid tomato; */
+    }
+    
+    li
+    {
+       /* border: 1px solid orange; */
+    }
+    
+    header
+    {
+       position:relative;
+       height: 7em;
+       /* margin-bottom:3em; */
+       margin-top:1em;
+       border-bottom: 1px solid #eoede9;  
+       box-shadow: 5px 5px 3px #aaaaaa; 
+    }
+   
+    /* 로고 */   
+    
+       #logo
+       {
+          height:6em;
+       }
+   
+    /* 로그인 네비 관리 */
+    
+       .header-login-nav
+       {
+          float:right;
+          /* background-color: tomato; */
+          margin-right: 1.0em;
+       }
+       
+       .header-login
+       {
+          list-style-type:none;
+       }
+       
+       .header-login li
+       {
+          display:inline;
+          
+       }
+       
+       .header-login li a
+       {
+          color: #b8cecc;       
+       }
+       
+       ul.header-login li a:hover
+       {
+            color: #c8d8a8;
+            font: bold 1.0em;
+       }
+       
+    .nav-container
+    {
+        float:right;          
+    }
+    
+   .header-nav
+    {
+       width: 100%;
+       height: 4em;        
+        list-style:none;
+    }
+    
+    .header-nav ul
+    {
+        display:none;
+        list-style-type: none;
+    }
+    
+    .header-nav li
+    {
+       display: inline;
+       line-height: 40px;
+    }
+        
+    .header-nav li a
+    {
+       display:inline;       
+        font: bold 4em ;
+        color: #516055;
+        text-decoration: none;
+        text-shadow:1px 1px 1px #black;
+     }
+     
+     .header-nav li a:hover
+     {
+        color: #e0ede9;
+        transform:scale(0.95);
+     }
+   
+    .header-nav li:hover > ul
+    {
+        position:absolute;
+        /* margin:0 auto; */
+        margin-top:2em;
+        margin-left:-110px;
+        display:inline-block;
+        width:20em;
+        height:3em;
+        
+        /* border: 1px solid red; */        
+    }
+   
+    .header-nav li:hover > ul li a
+    {
+        float:left;
+        margin:0 auto;
+        color: #516055;
+        line-height: 2.5em;
+        text-shadow:0.2em 0.2em 0.2em #b8cecc;  
+        text-decoration: none;                     
+    }
+    
+    
+    
+ /* 풋터 스타일 */
+ 
+    
+   body
+   {
+      position:relative;
+   }
+   
+   footer
+   {
+      text-align:center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 60px;   
+      background-color:#2e353d;
+      color:ghostwhite;
+      margin-bottom:0px auto;
+   }
+   
+   .footer-txt-container
+   {
+      /* border:1px solid red; */
+      height: 100%;
+      margin: 0 auto;
+   }
+   
+   #contents{
+      min-height:480px;
+   }
+  
+  
+  /* 페이징버튼 CSS */
+	.pagination {
+	  display: inline-block;
+	}
+	
+	
+	.pagination a {
+	  color: black;
+	  float: left;
+	  padding: 8px 16px;
+	  text-decoration: none;
+	  border: 1px solid #ddd;
+	}
+	
+	.pagination span {
+	  color: #516055;
+	  float: left;
+	  padding: 8px 16px;
+	  text-decoration: none;
+	  border: 1px solid #ddd;
+	}
+	
+	.pagination .cPage {
+	background-color:#516055;
+	  color: white;
+	  float: left;
+	  padding: 8px 16px;
+	  text-decoration: none;
+	  border: 1px solid #ddd;
+	}
+	.pagination a:hover:not(.active) {background-color: #ddd;}
+	
+	.pagination a:first-child {
+	  border-top-left-radius: 5px;
+	  border-bottom-left-radius: 5px;
+	}
+	
+	.pagination a:last-child {
+	  border-top-right-radius: 5px;
+	  border-bottom-right-radius: 5px;
+	}

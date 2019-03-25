@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* body {
+    \
+   background-size: cover;
+} */
+
+*[role="form"] {
+   max-width: 90%;
+   padding: 5%;
+   margin: 0S auto;
+   border-radius: 0.3em;
+   /* background-color: #f2f2f2; */
+}	
+
+*[role="form"] h2 { 
+   /* font-family: 'Open Sans' , sans-serif; */
+   font-size: 2em;
+   font-weight: 500;
+   color: #516055;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 0.01%;
+   margin-bottom: 10%;
+}
+/* 버튼스타일 */
+.btn-primary
+{
+    background-color:#516055 !important;
+    border:#594A49 !important;    
+}
+
+.btn-primary:hover
+{
+    background-color:#C8D8A8 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus 
+{
+    box-shadow: 0 0 0 0.2rem #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle 
+{
+    color: #fff !important;
+    background-color: #b8cecc !important;
+    border-color: #594A49 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus 
+{
+    box-shadow: 0 0 0 0.2rem #e0ede9 !important;
+}
+#doctor-regist-btn
+{
+    float: right;
+}
+#doctor-Modify-btn
+{
+	float: right;
+}
+
+
+ .doctorp
+ {
+ 	margin:0;
+ 	padding:0;
+ }
+ #postcodify_search_button
+ {
+ 	float:right;
+ }
+
+ 
+ 
